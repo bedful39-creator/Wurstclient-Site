@@ -1,0 +1,176 @@
+exclude:
+- start.bat
+
+timezone: Europe/Berlin
+title: WurstClient.net
+url: "https://www.wurstclient.net"
+
+# Changes to api.wurstclient.net on GitHub Pages, see jekyll.yml workflow
+api_url: "https://api.wurstclient.local"
+
+plugins:
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-redirect-from
+
+author: Alexander01998
+
+feed:
+  posts_limit: 20
+  collections:
+    updates:
+      path: "/wurst-updates.xml"
+
+latest_mcversion: "26.3"
+
+supported_mcversions:
+- '26.3'
+- '26.2'
+- "26.1.2"
+- "1.21.11"
+
+mc_version_aliases:
+  "1.7": "1.7.2 - 1.7.10 (built on 1.7.2)"
+  "1.8 OF": "1.8 - 1.8.9 + OptiFine (built on 1.8)"
+  "1.8": "1.8 - 1.8.9 (built on 1.8)"
+  "1.9": "1.9 - 1.9.2 (built on 1.9)"
+  "1.10": "1.10 - 1.10.2 (built on 1.10)"
+  "1.11 OF": "1.11 - 1.11.2 + OptiFine (built on 1.11)"
+  "1.11": "1.11 - 1.11.2 (built on 1.11)"
+  "1.12 OF": "1.12 - 1.12.2 + OptiFine (built on 1.12)"
+  "1.12": "1.12 - 1.12.2 (built on 1.12)"
+  "1.14_combat-3": "1.14 Combat Test 3"
+  "1.14.2": "1.14.2 - 1.14.4 (built on 1.14.2)"
+  "1.14.3": "1.14.2 - 1.14.4 (built on 1.14.3)"
+  "1.14.4": "1.14.2 - 1.14.4 (built on 1.14.4)"
+  "1.15": "1.15 - 1.15.2 (built on 1.15)"
+  "1.15.1": "1.15 - 1.15.2 (built on 1.15.1)"
+  "1.15.2": "1.15 - 1.15.2 (built on 1.15.2)"
+  "1.16": "1.16 - 1.16.1 (built on 1.16)"
+  "1.16.1": "1.16 - 1.16.1 (built on 1.16.1)"
+  "1.16.2": "1.16.2 - 1.16.5 (built on 1.16.2)"
+  "1.16.3": "1.16.2 - 1.16.5 (built on 1.16.3)"
+  "1.16.4": "1.16.2 - 1.16.5 (built on 1.16.4)"
+  "1.16.5": "1.16.2 - 1.16.5 (built on 1.16.5)"
+  "1.18": "1.18 - 1.18.1 (built on 1.18)"
+  "1.18.1": "1.18 - 1.18.1 (built on 1.18.1)"
+  "1.19.1": "1.19.84 (1.19.1)"
+  "1.20": "1.20 - 1.20.1 (built on 1.20)"
+  "1.20.1": "1.20 - 1.20.1 (built on 1.20.1)"
+  "1.20.3": "1.20.3 - 1.20.4 (built on 1.20.3)"
+  "1.20.4": "1.20.3 - 1.20.4 (built on 1.20.4)"
+  "1.20.5": "1.20.5 - 1.20.6 (built on 1.20.5)"
+  "1.20.6": "1.20.5 - 1.20.6 (built on 1.20.6)"
+  "1.21": "1.21 - 1.21.1 (built on 1.21)"
+  "1.21.1": "1.21 - 1.21.1 (built on 1.21.1)"
+  "1.21.2": "1.21.2 - 1.21.3 (built on 1.21.2)"
+  "1.21.3": "1.21.2 - 1.21.3 (built on 1.21.3)"
+  "1.21.5": "1.21.5 / 25.1"
+  "1.21.6": "1.21.6 - 1.21.8 (built on 1.21.6) / 25.2"
+  "1.21.7": "1.21.6 - 1.21.8 (built on 1.21.7) / 25.2"
+  "1.21.8": "1.21.6 - 1.21.8 (built on 1.21.8) / 25.2"
+  "1.21.9": "1.21.9 - 1.21.10 (built on 1.21.9) / 25.3"
+  "1.21.10": "1.21.9 - 1.21.10 (built on 1.21.10) / 25.3"
+  "1.21.11": "1.21.11 / 25.4"
+  "26.1": "26.1 - 26.1.2 (built on 26.1)"
+  "26.1.1": "26.1 - 26.1.2 (built on 26.1.1)"
+  "26.1.2": "26.1 - 26.1.2 (built on 26.1.2)"
+  "snapshots": "Snapshots"
+
+collections:
+  updates:
+    output: true
+    permalink: /updates/:slug/
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+  tutorials_de:
+    output: true
+    permalink: /de/tutorials/:path/
+  redirects:
+    output: true
+    permalink: /:path/
+
+defaults:
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: default
+    author: Alexander01998
+- scope:
+    path: ""
+    type: updates
+  values:
+    layout: update
+- scope:
+    path: ""
+    type: wiki
+  values:
+    layout: wiki
+    secondarytitle: Wurst Wiki
+- scope:
+    path: ""
+    type: tutorials
+  values:
+    layout: tutorial
+- scope:
+    path: ""
+    type: redirects
+  values:
+    layout: redirect
+
+mc_update_names:
+  "1.7": "The Update That Changed The World"
+  "1.8": "The Bountiful Update"
+  "1.9": "The Combat Update"
+  "1.10": "The Frostburn Update"
+  "1.11": "The Exploration Update"
+  "1.12": "The World of Color Update"
+  "1.14.4": "The Village & Pillage Update"
+  "1.15": "The Buzzy Bees Update"
+  "1.15.1": "The Buzzy Bees Update"
+  "1.15.2": "The Buzzy Bees Update"
+  "1.16": "The Nether Update"
+  "1.16.1": "The Nether Update"
+  "1.16.2": "The Nether Update"
+  "1.16.3": "The Nether Update"
+  "1.16.4": "The Nether Update"
+  "1.16.5": "The Nether Update"
+  "1.17": "Caves & Cliffs Part 1"
+  "1.17.1": "Caves & Cliffs Part 1"
+  "1.18": "Caves & Cliffs Part 2"
+  "1.18.1": "Caves & Cliffs Part 2"
+  "1.18.2": "Caves & Cliffs Part 2"
+  "1.19": "The Wild Update"
+  "1.19.1": "The Chat Reports Update"
+  "1.19.2": "The Chat Reports Update"
+  "1.19.3": "The Wild Update"
+  "1.19.4": "The Wild Update"
+  "1.20": "The Trails & Tales Update"
+  "1.20.1": "The Trails & Tales Update"
+  "1.20.2": "The Trails & Tales Update"
+  "1.20.3": "The Trails & Tales Update"
+  "1.20.4": "The Trails & Tales Update"
+  "1.20.5": "The Armored Paws Drop"
+  "1.20.6": "The Armored Paws Drop"
+  "1.21": "The Tricky Trials Update"
+  "1.21.1": "The Tricky Trials Update"
+  "1.21.2": "The Bundles of Bravery Drop"
+  "1.21.3": "The Bundles of Bravery Drop"
+  "1.21.4": "The Garden Awakens Drop"
+  "1.21.5": "The Spring To Life Drop (25.1)"
+  "1.21.6": "Chase The Skies (25.2)"
+  "1.21.7": "The Lava Chicken Drop (25.2.1)"
+  "1.21.8": "The Lava Chicken Drop (25.2.2)"
+  "1.21.9": "The Copper Age (25.3)"
+  "1.21.10": "Copper Age Hotfix 1 (25.3.1)"
+  "1.21.11": "Mounts of Mayhem (25.4)"
+  "26.1": "Tiny Takeover"
+  "26.1.1": "Tiny Takeover Hotfix 1"
+  "26.1.2": "Tiny Takeover Hotfix 2"
+  "26.2": "Chaos Cubed"
+  "26.3": "Wilderness Bound"

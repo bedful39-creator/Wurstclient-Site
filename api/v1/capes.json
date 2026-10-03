@@ -1,0 +1,97 @@
+---
+layout: none
+no_index: true
+capes:
+  wurst: "https://user-images.githubusercontent.com/10100202/203159684-08e62b4d-3b63-4f39-a4fc-21fc4960f346.png"
+  wizhax2015: "https://cloud.githubusercontent.com/assets/10100202/6558136/715f8a82-c67a-11e4-8922-7f8e9b8311cd.png"
+  halloween1: "https://user-images.githubusercontent.com/10100202/66271220-c1a51400-e85b-11e9-830a-87fd8c9ba170.png"
+  halloween2: "https://user-images.githubusercontent.com/10100202/66271221-c1a51400-e85b-11e9-98bd-f7f7e2d16b6e.png"
+  halloween3: "https://user-images.githubusercontent.com/10100202/66271215-c073e700-e85b-11e9-96e8-2ded99d26cd8.png"
+  halloween4: "https://user-images.githubusercontent.com/10100202/66271216-c073e700-e85b-11e9-8f94-d7f1468c4680.png"
+  halloween5: "https://user-images.githubusercontent.com/10100202/66271217-c10c7d80-e85b-11e9-8fdb-a7a2ec6ed8b8.png"
+  halloween6: "https://user-images.githubusercontent.com/10100202/66271218-c10c7d80-e85b-11e9-89d6-427a5f068df2.png"
+  halloween7: "https://user-images.githubusercontent.com/10100202/66271219-c10c7d80-e85b-11e9-94d4-f6b9d3ed96f9.png"
+  jj: "https://github.com/Wurst-Imperium/WurstClient.net/assets/10100202/4f412ff2-ab2b-48be-ab97-36e709e2e6b8"
+  flashbxng: "https://github.com/user-attachments/assets/6a42de06-a559-4df4-98b1-abec0f277f12"
+---
+{
+  "Alexander01998": "{{ page.capes.wurst }}",
+  "8c442c03-5206-4ced-afd1-25d07b497554": "{{ page.capes.wurst }}",
+  "gruenwald32": "{{ page.capes.wurst }}",
+  "e67d95f1-ffb5-48fa-9012-457c6c30319b": "{{ page.capes.wurst }}",
+  "Marka2000": "{{ page.capes.wurst }}",
+  "ddc3ee5f-4e70-469d-9362-eb46cd0b0eb0": "{{ page.capes.wurst }}",
+  "WiZARDHAXoCOM": "{{ page.capes.wurst }}",
+  "8587129e-610f-4f1a-87be-7ffd0625645a": "{{ page.capes.wurst }}",
+  "Korny_": "{{ page.capes.wurst }}",
+  "d234a739-3c5e-478e-8464-4e12b809a45b": "{{ page.capes.wurst }}",
+
+  "Zearex": "{{ page.capes.wizhax2015 }}",
+  "b5332c90-0664-441f-8b02-8979809873cd": "{{ page.capes.wizhax2015 }}",
+  "Tigrex_HD": "{{ page.capes.wizhax2015 }}",
+  "9885860b-d342-4aa4-9409-90a8eb053b5f": "{{ page.capes.wizhax2015 }}",
+  "TypicalModders": "{{ page.capes.wizhax2015 }}",
+  "49e29813-0207-441b-8a19-cb728e853e96": "{{ page.capes.wizhax2015 }}",
+  "TheAmazingPiggy": "{{ page.capes.wizhax2015 }}",
+  "484012c1-224a-40a9-802a-5c510cceedff": "{{ page.capes.wizhax2015 }}",
+  "Mr_Anonymous_": "{{ page.capes.wizhax2015 }}",
+  "57e85066-2919-4688-887d-3861781abeb9": "{{ page.capes.wizhax2015 }}",
+  "Auzztn": "{{ page.capes.wizhax2015 }}",
+  "063a7266-1521-4e23-884e-0c6b6201674a": "{{ page.capes.wizhax2015 }}",
+  "Lavandiasyndrom": "{{ page.capes.wizhax2015 }}",
+  "415db3d2-3bac-4011-a1fa-e58c9992251f": "{{ page.capes.wizhax2015 }}",
+  "HugganMc": "{{ page.capes.wizhax2015 }}",
+  "703cf25c-0ee3-4993-b26e-d5bef5d192fd": "{{ page.capes.wizhax2015 }}",
+  "6F736B6172": "{{ page.capes.wizhax2015 }}",
+  "edb57596-64b0-4f02-96e3-412c5a14976b": "{{ page.capes.wizhax2015 }}",
+  "BoBoChicken666": "{{ page.capes.wizhax2015 }}",
+  "47f3650f-b74c-44d3-8ce3-ddc3a5c1d2f3": "{{ page.capes.wizhax2015 }}",
+
+  "Coolgamer1210": "{{ page.capes.halloween1 }}",
+  "c94acb15-2259-4fbe-81fe-4c39e8eacb80": "{{ page.capes.halloween1 }}",
+  "That1Weeb": "{{ page.capes.halloween2 }}",
+  "2b03ad54-562e-453e-8e97-3e46e4ec16b3": "{{ page.capes.halloween2 }}",
+  "ItlJustlWorks": "{{ page.capes.halloween3 }}",
+  "e67d84b7-35b3-4e57-8a4c-4dd2b6dce40d": "{{ page.capes.halloween3 }}",
+  "Harrryy8i8": "{{ page.capes.halloween4 }}",
+  "76409295-e4cb-4c2c-a831-3f71d8f24ee8": "{{ page.capes.halloween4 }}",
+  "MICH1": "{{ page.capes.halloween5 }}",
+  "c98df8c4-370e-49a8-ac9b-3b8ca2ca2f28": "{{ page.capes.halloween5 }}",
+  "Packesl": "{{ page.capes.halloween6 }}",
+  "ef4279b5-4d8e-4e42-938b-fe14776cdb8a": "{{ page.capes.halloween6 }}",
+  "Fantakuchen": "{{ page.capes.halloween7 }}",
+  "b20ca858-6212-41bd-8856-e7e50bb499f4": "{{ page.capes.halloween7 }}",
+
+  "ZANXEY": "{{ page.capes.wurst }}",
+  "1fed2286-f703-4ec4-83ce-7b6a6b26e477": "{{ page.capes.wurst }}",
+  "tRyexulOv": "{{ page.capes.wurst }}",
+  "5dd101af-109d-4d72-b5d6-acc8ebfc4ce6": "{{ page.capes.wurst }}",
+  "UnderbellyGrease": "{{ page.capes.wurst }}",
+  "03ee256e-d601-41a0-9d19-ebaaffda5d36": "{{ page.capes.wurst }}",
+  "Koyos_": "{{ page.capes.wurst }}",
+  "7b8ffbcf-03d9-468f-8e90-5fda6c81b9e2": "{{ page.capes.wurst }}",
+  "smksmk": "{{ page.capes.wurst }}",
+  "1cd0d4da-8d14-4c8d-8739-30c76c1cdd66": "{{ page.capes.wurst }}",
+  "ipaqmaster": "{{ page.capes.jj }}",
+  "de037b8a-4dba-4880-9f94-663ab3dac5e3": "{{ page.capes.jj }}",
+  "Ivantot": "{{ page.capes.wurst }}",
+  "c31449de-c257-47e9-bd0d-2c5e53979e38": "{{ page.capes.wurst }}",
+  "yinhzccxm": "{{ page.capes.wurst }}",
+  "099a282f-760e-4ffb-b765-59836b57da10": "{{ page.capes.wurst }}",
+  "CureSaba": "{{ page.capes.wurst }}",
+  "201ac3d0-5601-4129-9877-d9d7a65d6887": "{{ page.capes.wurst }}",
+  "FlashBxng": "{{ page.capes.flashbxng }}",
+  "c64e0a3b-763b-48df-8712-c975cf60e6a7": "{{ page.capes.flashbxng }}",
+  "Karataso": "{{ page.capes.wurst }}",
+  "5551f762-673b-43dc-8dc7-50819ae58028": "{{ page.capes.wurst }}",
+  "Nikotem": "{{ page.capes.wurst }}",
+  "b7287236-65ff-4f1e-8ddc-e4f650b02503": "{{ page.capes.wurst }}",
+  "418_280": "{{ page.capes.wurst }}",
+  "c01dffaa-7188-41f1-a095-85e39ca93739": "{{ page.capes.wurst }}",
+  "VlSON": "{{ page.capes.wurst }}",
+  "59a0d698-72a2-4b31-86d4-fb0adcc54be2": "{{ page.capes.wurst }}",
+  "retegrity": "{{ page.capes.wurst }}",
+  "a91f0d03-e597-4f25-ab98-e5cb39a888a6": "{{ page.capes.wurst }}",
+
+  "use_new_server": false
+}

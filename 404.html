@@ -1,0 +1,7 @@
+---
+title: Error 404 (not found)
+description: This page does not exist.
+permalink: /404.html
+---
+{% include title.html l1 = page.title l2 = page.description %}
+<script>plausible("404",{ props: { path: document.location.pathname } });</script>

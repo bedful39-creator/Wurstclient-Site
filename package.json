@@ -1,0 +1,28 @@
+{
+  "name": "wurstclient-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wurst-Imperium/WurstClient.net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Wurst-Imperium/WurstClient.net/issues"
+  },
+  "homepage": "https://github.com/Wurst-Imperium/WurstClient.net#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "front-matter": "^4.0.2",
+    "js-yaml": "^5.4.2",
+    "liquidjs": "^10.30.0",
+    "markdown-it": "^15.0.2"
+  }
+}

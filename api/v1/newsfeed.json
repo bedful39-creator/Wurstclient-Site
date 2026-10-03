@@ -1,0 +1,14 @@
+---
+layout: none
+no_index: true
+---
+{
+  {%- assign count = 0 -%}
+  {%- for post in site.updates reversed %}
+  {{ post.title | jsonify }}: "{{ site.url }}{{ post.url | remove: "index.html" }}"{%- unless forloop.last %},{% endunless -%}
+  {%- assign count = count | plus: 1 -%}
+  {%- if count >= 3 -%}
+    {%- break -%}
+  {%- endif -%}
+  {%- endfor %}
+}

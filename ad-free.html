@@ -1,0 +1,143 @@
+---
+title: Ad-Free Access Pass
+permalink: /ad-free/
+screenshots:
+- https://images.wurstclient.net/_media/afa/afa1_540p.webp
+- https://images.wurstclient.net/_media/afa/afa2_540p.webp
+- https://images.wurstclient.net/_media/afa/afa3_540p.webp
+---
+{% include title.html l1 = page.title l2 = page.description %}
+<style>
+@media screen and (max-width: 800px) {
+	#restore-access-form {
+		margin: .625rem;
+	}
+}
+details {
+	padding: 5px;
+}
+.loading {
+	background-color: #d9d9d9;
+	color: #d9d9d9;
+	border-radius: 0.3125rem;
+	animation: loading-fade 1.5s ease-in-out infinite;
+}
+@keyframes loading-fade {
+	0%, 100% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 1;
+	}
+}
+</style>
+
+<section class="padding20 no-padding-left no-padding-right" id="purchase">
+	<div class="container">
+		<p class="text-accent padding10 no-padding-left no-padding-right no-padding-top">
+			Say goodbye to pesky ads and hello to a clean, uninterrupted download experience! No subscriptions, no monthly fees, just a one-and-done purchase for a lifetime of ad-free Wurst downloads.
+		</p>
+		<div class="wurst-grid cells2">
+			<div class="bg-grayLighter padding20 set-border">
+				<p style="display: flex;align-items: center;justify-content: center">
+					<span class="leader loading" id="price">
+						€<b>9.99</b>
+					</span>
+					<span style="margin-left: 0.5rem;">
+						<span style="font-weight: 500;">one-time payment</span>
+						<br>
+						<span class="fg-gray">
+							<span id="currency-code" class="loading">EUR</span>, incl. VAT
+						</span>
+					</span>
+				</p>
+				<button id="buy-button" class="button primary full-size shadow bg-hover-lightBlue">Get Ad-Free Access</button>
+				<div class="align-center">
+					<div class="align-left inline-block">
+						<ul class="unstyled-list">
+							<li>&check; No banner ads</li>
+							<li>&check; No pop-ups</li>
+							<li>&check; No sponsored links</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h2 class="text-light">Already purchased?</h2>
+				<p>If you've purchased ad-free access on another device or somehow got logged out, you can easily restore it.</p>
+				<form id="restore-access-form" style="display: flex;align-items: center;">
+					<input type="email" name="email" autocomplete="email" placeholder="Your email address" style="height: 2.125rem;padding: 0.3125rem;border: 1px #d9d9d9 solid;margin-inline-end: -1px;flex-grow: 1">
+					<button class="button">Send Link</button>
+				</form>
+				<p>Simply enter your email address above and click on the link we send you.</p>
+			</div>
+		</div>
+		<div class="padding20 no-padding-left no-padding-right"></div>
+		<div class="padding10 no-padding-left no-padding-right align-center">
+			<h2>See For Yourself</h2>
+			<p>Click on any screenshot to view it in full size.</p>
+		</div>
+		<div class="padding10 no-padding-left no-padding-right">
+			<div class="wurst-grid">
+			{%- for screenshot in page.screenshots -%}
+				{%- assign fullsize-image = screenshot | replace: '_540p.webp', '.jpg' -%}
+				{%- assign filename = fullsize-image | replace: 'https://images.wurstclient.net/_media/afa/', '' -%}
+				<article>
+					<a href="{{ fullsize-image }}" target="_blank" title="File: {{ filename }}" data-analytics="Screenshot Gallery: Expand Image" data-analytics-image="{{ filename }}">
+						<img src="{{ screenshot }}" loading="lazy" alt="{{ filename }}" width="640" height="360">
+					</a>
+				</article>
+			{%- endfor -%}
+			</div>
+		</div>
+		<div class="padding20 no-padding-left no-padding-right"></div>
+		<div class="wurst-grid cells2 centered">
+			<figure>
+				<blockquote class="text-accent">
+					<p>The Wurst Hacked Client puts you in the driver's seat!</p>
+				</blockquote>
+				<figcaption>
+					<p>&mdash; <cite>WiZARD HAX</cite></p>
+				</figcaption>
+			</figure>
+			<figure>
+				<blockquote class="text-accent">
+					<p>The Wurst Client is one of, if not the best Minecraft hack.</p>
+				</blockquote>
+				<figcaption>
+					<p>&mdash; <cite>mchacks.net</cite></p>
+				</figcaption>
+			</figure>
+			<figure>
+				<blockquote class="text-accent">
+					<p>For those who relish in survival mode, this client is a godsend!</p>
+				</blockquote>
+				<figcaption>
+					<p>&mdash; <cite>thebluecrusader</cite></p>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="padding20 no-padding-left no-padding-right"></div>
+	</div>
+</section>
+
+<section class="padding20 no-padding-left no-padding-right" id="already-purchased" style="display: none">
+	<div class="container align-center">
+		<p class="text-accent">
+			Thank you for your purchase! Your Ad-Free Access Pass has been enabled.
+		</p>
+		<p>
+			Any problems? <a href="mailto:hello@wurstclient.net">Let me know</a>!
+		</p>
+		<div class="padding100 no-padding-left no-padding-right"></div>
+	</div>
+</section>
+
+<section class="padding20 no-padding-left no-padding-right bg-grayLighter" id="faq">
+	<div class="container">
+		{%- include ad-free/faq.html -%}
+	</div>
+</section>
+
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script defer src="/js/ad-free-v2024.07.14.js"></script>
