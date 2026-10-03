@@ -1,5 +1,5 @@
 {%- assign share_title = page.title | cgi_escape -%}
-{%- assign share_url = "https://www.wurstclient.net" | append: page.url | remove: "index.html" | uri_escape -%}
+{%- assign share_url = site.url | append: page.url | remove: "index.html" | uri_escape -%}
 {%- capture twitter_href -%}https://twitter.com/intent/tweet?text={{ share_title }}&amp;url={{ share_url }}&amp;via=Wurst_Imperium{% endcapture -%}
 {%- capture rss_title -%}RSS feed of Wurst updates. (Atom XML format)
 Subscribe with an RSS reader to get notified of new Wurst updates.{%- endcapture -%}

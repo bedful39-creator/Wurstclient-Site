@@ -46,13 +46,13 @@
 <meta property="og:type" content="website">
 
 {{/*  Canonical URL  */}}
-<link rel="canonical" href="https://www.wurstclient.net{{ page.url }}">
-<meta property="og:url" content="https://www.wurstclient.net{{ page.url }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
 {{/*  Language  */}}
 <meta property="og:locale" content="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
 {%- for tr in page.translations -%}
-	<link rel="alternate" hreflang="{{ tr[0] }}" href="https://www.wurstclient.net{{ tr[1] }}">
+	<link rel="alternate" hreflang="{{ tr[0] }}" href="{{ site.url }}{{ tr[1] }}">
 {%- endfor -%}
 
 {{/*  Analytics  */}}
