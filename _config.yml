@@ -1,5 +1,15 @@
 exclude:
 - start.bat
+- Gemfile
+- Gemfile.lock
+- package.json
+- package-lock.json
+- vercel.json
+- server.js
+- start_localhost.bat
+- README.md
+- node_modules
+- vendor
 
 timezone: Europe/Berlin
 title: WurstClient.net

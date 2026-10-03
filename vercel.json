@@ -1,0 +1,6 @@
+{
+  "framework": "jekyll",
+  "installCommand": "bundle install",
+  "buildCommand": "sed -i 's|api_url: \"https://api.wurstclient.local\"|api_url: \"https://api.wurstclient.net\"|g' _config.yml && (node _scripts/generate-custom-jars.js || true) && bundle exec jekyll build",
+  "outputDirectory": "_site"
+}
