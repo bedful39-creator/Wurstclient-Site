@@ -1,3 +1,7 @@
 /_site
 .jekyll-metadata
 *.pyc
+
+# Local tooling, not part of the published site
+/node_modules
+/.freebuff

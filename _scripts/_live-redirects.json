@@ -1,0 +1,987 @@
+[
+  {
+    "url": "/1/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/api/v1/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/api/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/chat-disabled-mpk/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/discord/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/dowload/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/download/minecraft/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/download/wurst-client/wurst-client-for-minecraft-1-8/releases/wurst-1-3-1/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/feedback/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/forceop-tutorial/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/github/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/how-to-install/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-donate/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-forum/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-homepage/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-issues/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-sources/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-twitter/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/modmenu-wiki/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/Mods/Force_OP_(AuthMeCracker)/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/news/2017-03-10-Wurst-2.29/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/news/2017-03-10-Wurst-5.10/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/news/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/options-donate/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/options-forum/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/options-twitter/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/options-website/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/options-wiki/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/other-projects/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/reddit/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/serverfinder-tutorial/",
+    "status": 301,
+    "location": "https://wurst.wiki/serverfinder?utm_source=Wurst+Client&utm_medium=ServerFinder+screen"
+  },
+  {
+    "url": "/tutorials/dot-binds-command/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/forceop/long/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/forceop/short/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/forceop/video/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/forceop/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/gui-keybind-fix/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/wurst-7-baritone/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/tutorials/wurst-7-optifine/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/twitter/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/updates/w../",
+    "status": 404,
+    "location": ""
+  },
+  {
+    "url": "/updates/w/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/updates/wurst-2-11-1/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/updates/wurst-2-11-2/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/updates/wurst-6-26-1/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/updates/wurst-7-31-0/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/updates/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/use/installer/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/addalt/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/annoy/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/author/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/blink/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/clear/",
+    "status": 301,
+    "location": "https://wurst.wiki/cmd/clear"
+  },
+  {
+    "url": "/wiki/Commands/damage/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/enchant/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/friends/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/give/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/gm/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/modify/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/potion/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/rename/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/say/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/setmode/",
+    "status": 301,
+    "location": "https://wurst.wiki/cmd/setmode"
+  },
+  {
+    "url": "/wiki/Commands/taco/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/vclip/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/xray/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Commands/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Installation/",
+    "status": 301,
+    "location": "https://www.wurstclient.net/tutorials/how-to-install/"
+  },
+  {
+    "url": "/wiki/Mods/AntiAFK/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AntiBlind/",
+    "status": 301,
+    "location": "https://wurst.wiki/antiblind"
+  },
+  {
+    "url": "/wiki/Mods/AntiCactus/",
+    "status": 301,
+    "location": "https://wurst.wiki/anticactus"
+  },
+  {
+    "url": "/wiki/Mods/AntiFire/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AntiKnockback/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AntiMAC/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AntiPotion/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AntiSpam/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/ArenaBrawl/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoArmor/",
+    "status": 301,
+    "location": "https://wurst.wiki/autoarmor"
+  },
+  {
+    "url": "/wiki/Mods/AutoBuild/",
+    "status": 301,
+    "location": "https://wurst.wiki/autobuild"
+  },
+  {
+    "url": "/wiki/Mods/AutoEat/",
+    "status": 301,
+    "location": "https://wurst.wiki/autoeat"
+  },
+  {
+    "url": "/wiki/Mods/AutoFish/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoLeave/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoMine/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoRespawn/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSign/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSoup/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSplashPot/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSprint/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSteal/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSwitch/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoSword/",
+    "status": 301,
+    "location": "https://wurst.wiki/autosword"
+  },
+  {
+    "url": "/wiki/Mods/AutoTool/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/AutoWalk/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/BaseFinder/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Blink/",
+    "status": 301,
+    "location": "https://wurst.wiki/blink"
+  },
+  {
+    "url": "/wiki/Mods/BonemealAura/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/BowAimbot/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/BuildRandom/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/BunnyHop/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/CaveFinder/",
+    "status": 301,
+    "location": "https://wurst.wiki/cavefinder"
+  },
+  {
+    "url": "/wiki/Mods/ChestESP/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/ClickAura/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/CMD-Block/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/CrashChest/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/CrashItem/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Criticals/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Derp/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Dolphin/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FancyChat/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FastBow/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FastBreak/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FastEat/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FastLadder/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FastPlace/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/FightBot/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Flight/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Follow/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/ForcePush/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Force_OP_(AuthMeCracker)/",
+    "status": 301,
+    "location": "https://wurst.wiki/forceop"
+  },
+  {
+    "url": "/wiki/Mods/Freecam/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Fullbright/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/GhostHand/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Glide/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Headless/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/HeadRoll/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/HealthTags/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/HighJump/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/home/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/InstantBunker/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Invisibility/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/ItemESP/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Jesus/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Jetpack/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Kaboom/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Killaura/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/KillauraLegit/",
+    "status": 301,
+    "location": "https://wurst.wiki/killauralegit"
+  },
+  {
+    "url": "/wiki/Mods/KillerPotion/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Liquids/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/LogSpammer/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/LSD/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/MassTPA/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/MenuWalk/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/MileyCyrus/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/MobESP/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/MultiAura/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NameProtect/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NameTags/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Navigator/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NoClip/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NoFall/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NoHurtcam/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NoSlowdown/",
+    "status": 301,
+    "location": "https://wurst.wiki/noslowdown"
+  },
+  {
+    "url": "/wiki/Mods/NoWeb/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Nuker/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/NukerLegit/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/OP-Sign/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/OP-Sign_(Force_OP)/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Overlay/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Panic/",
+    "status": 301,
+    "location": "https://wurst.wiki/panic"
+  },
+  {
+    "url": "/wiki/Mods/Phase/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/PlayerESP/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/PlayerFinder/",
+    "status": 301,
+    "location": "https://wurst.wiki/playerfinder"
+  },
+  {
+    "url": "/wiki/Mods/PotionSaver/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/ProphuntESP/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Protect/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Regen/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/RemoteView/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/SafeWalk/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Search/",
+    "status": 301,
+    "location": "https://wurst.wiki/search"
+  },
+  {
+    "url": "/wiki/Mods/SkinBlinker/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Sneak/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Spammer/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/SpeedHack/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/SpeedNuker/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Spider/",
+    "status": 301,
+    "location": "https://wurst.wiki/spider"
+  },
+  {
+    "url": "/wiki/Mods/Step/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Throw/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Timer/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Tired/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/TP-Aura/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Tracers/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Trajectories/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/TriggerBot/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/TrollPotion/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/TrueSight/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/Tunneller/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/X-Ray/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/YesCheat/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Mods/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Special_Features/Alt_Manager/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Special_Features/Force_OP_(Session_Stealer)/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Special_Features/Server_Finder/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/Special_Features/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wiki/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wurst7issues/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/wurst7sources/",
+    "status": 200,
+    "location": ""
+  },
+  {
+    "url": "/youtube/",
+    "status": 200,
+    "location": ""
+  }
+]

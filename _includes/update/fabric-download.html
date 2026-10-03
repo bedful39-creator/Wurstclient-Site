@@ -43,22 +43,25 @@
 	{%- capture mainText -%}Wurst Client {{ full_version }}{%- endcapture -%}
 	{%- capture mainLink -%}{{ mcxbase }}{{ basepath }}.jar{%- endcapture -%}
 	{%- assign mainFile = mainLink | split: '/' | last -%}
+	{%- assign customMain = site.data.custom_jars.files[mainFile] -%}
+	{%- assign downloadLink = customMain | default: site.data.custom_jars.fallback | default: "/download/jars/Wurst-Client-V8.1-MC.jar" -%}
+	{%- assign downloadFile = downloadLink | split: '/' | last -%}
 	<a class="command-button download"
 		href="javascript:void(0)"
-		data-href="{{ mainLink }}"
+		data-href="{{ downloadLink }}"
 		data-analytics="Download Wurst"
 		data-analytics-version="{{ page.wurst-version }}"
 		data-analytics-mcversion="{{ mcversion }}"
 		data-analytics-mcversiontype="{{ mcversion_type }}"
 		data-analytics-modloader="Fabric"
 		data-analytics-type="main"
-		data-analytics-mirror="GitHub"
-		data-analytics-file="{{ mainFile }}"
+		data-analytics-mirror="{% if customMain %}Custom{% else %}Fallback{% endif %}"
+		data-analytics-file="{{ downloadFile }}"
 		data-analytics-outdated="{{ isOutdated }}"
 	>
 		<span class="icon mif-file-download"></span>
 		{{ mainText }}
-		<small>File: {{ mainFile }}</small>
+		<small>File: {{ downloadFile }}</small>
 	</a>
 
 	{%- if page.fabric-api -%}
@@ -101,8 +104,11 @@
 	<li>
 		{%- capture srclink -%}{{ mcxbase }}{{ basepath }}-sources.jar{%- endcapture -%}
 		{%- assign srcfile = srclink | split: '/' | last -%}
+		{%- assign customSources = site.data.custom_jars.files[srcfile] -%}
+		{%- assign sourcesLink = customSources | default: srclink -%}
+		{%- assign sourcesFile = sourcesLink | split: '/' | last -%}
 		<a href="javascript:void(0)"
-			data-href="{{ srclink }}"
+			data-href="{{ sourcesLink }}"
 			data-warning="This link downloads Wurst's source code, not the mod itself.&#10;&#10;If you want to install Wurst, click the big download button above instead. Putting this -sources.jar file into your mods folder will crash the game.&#10;&#10;Download the source code anyway?"
 			data-analytics="Download Wurst"
 			data-analytics-version="{{ page.wurst-version }}"
@@ -110,11 +116,11 @@
 			data-analytics-mcversiontype="{{ mcversion_type }}"
 			data-analytics-modloader="Fabric"
 			data-analytics-type="sources"
-			data-analytics-mirror="GitHub"
-			data-analytics-file="{{ srcfile }}"
+			data-analytics-mirror="{% if customSources %}Custom{% else %}GitHub{% endif %}"
+			data-analytics-file="{{ sourcesFile }}"
 			data-analytics-outdated="{{ isOutdated }}"
 		>
-			{{ srcfile }}
+			{{ sourcesFile }}
 		</a>
 	</li>
 </ul>

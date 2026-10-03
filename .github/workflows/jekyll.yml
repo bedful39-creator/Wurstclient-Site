@@ -40,6 +40,8 @@ jobs:
     - name: Set production API URL
       run: |
         sed -i 's|api_url: "https://api.wurstclient.local"|api_url: "https://api.wurstclient.net"|g' _config.yml
+    - name: Generate custom jar list
+      run: node _scripts/generate-custom-jars.js
     - name: Setup Pages
       uses: actions/configure-pages@v6
     - name: Build with Jekyll
