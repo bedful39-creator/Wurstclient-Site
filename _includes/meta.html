@@ -1,11 +1,19 @@
 {{/*  General meta tags  */}}
 <meta charset="utf-8">
 <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {{/*  Robots  */}}
 <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% else %}index, follow{% endif %}">
+
+{{/*  Google Search Console verification (set google_site_verification in _config.yml)  */}}
+{%- if site.google_site_verification -%}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{%- endif -%}
 
 {{/*  Styles  */}}
 <link rel="preload" href="/fonts/metro.woff" as="font" type="font/woff" crossorigin>

@@ -458,6 +458,9 @@ app.use('/js', express.static(path.join(ROOT, 'js')));
 app.use('/fonts', express.static(path.join(ROOT, 'fonts')));
 app.use('/api', express.static(path.join(ROOT, 'api')));
 app.use('/favicon.ico', (req, res) => res.sendFile(path.join(ROOT, 'favicon.ico')));
+app.use('/favicon-48x48.png', (req, res) => res.sendFile(path.join(ROOT, 'favicon-48x48.png')));
+app.use('/favicon-96x96.png', (req, res) => res.sendFile(path.join(ROOT, 'favicon-96x96.png')));
+app.use('/apple-touch-icon.png', (req, res) => res.sendFile(path.join(ROOT, 'apple-touch-icon.png')));
 app.use('/ads.txt', (req, res) => res.sendFile(path.join(ROOT, 'ads.txt')));
 
 async function renderPage(filePath, reqUrl, customData = {}) {

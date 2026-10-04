@@ -15,6 +15,10 @@ timezone: Europe/Berlin
 title: WurstClient.net
 url: "https://www.wurstclient.org"
 
+# Google Search Console verification token ("HTML tag" method). Uncomment and
+# paste the token to emit <meta name="google-site-verification"> on every page.
+# google_site_verification: "PASTE_TOKEN_HERE"
+
 # Changes to api.wurstclient.net on GitHub Pages, see jekyll.yml workflow
 api_url: "https://api.wurstclient.local"
 
